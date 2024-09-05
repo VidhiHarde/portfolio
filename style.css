@@ -1,0 +1,194 @@
+body{
+    background-color:azure;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:"Montserrat", sans-serif;
+    line-height: 10px;
+    color: rgb(43, 42, 42);
+    background-color: rgb(181, 178, 178);
+}
+h2{
+    text-align: center;
+    font-size: 16px;
+    color:rgb(175, 172, 172);
+    font-family: 'Courier New', Courier, monospace;
+}
+.about{
+    h3{
+        position:absolute;
+        top:84%;
+        left:1%;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        position:absolute;
+        top:90%;
+        left:1%;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+}
+
+.skills{
+    h3{
+        position: absolute;
+        top:111%;
+        left:1%;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:inline;
+    }
+    p{
+        position:absolute;
+        top:90%;
+        left:1%;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+    .social{
+        position: absolute;
+        top:120%;
+        left:1%;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:inline;
+    }
+    .box1{
+        width:95%;
+        position: absolute;
+        top:128%;
+        left:1%;
+        background-color: rgb(90, 87, 87);
+        text-align: center;
+        color: aliceblue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .photo{
+        position: absolute;
+        top:130%;
+        left:1%;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:inline;
+    }
+    .box2{
+        width:90%;
+        position: absolute;
+        top:138%;
+        left:1%;
+        background-color: rgb(90, 87, 87);
+        text-align: center;
+        color: aliceblue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .programming{
+        position: absolute;
+        top:140%;
+        left:1%;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:inline;
+    }
+    .box3{
+        width:80%;
+        position: absolute;
+        top:148%;
+        left:1%;
+        background-color: rgb(90, 87, 87);
+        text-align: center;
+        color: aliceblue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+}
+.reviews{
+    h3{
+        position: absolute;
+        top:158%;
+        left:1%;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:inline;
+    }
+    .profile1{
+        margin: 100px 0 0 200px;
+        height:80px;
+        width:0%;
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        top:158%;
+        right:90%;
+
+    }
+    .profile2{
+        margin: 100px 0 0 200px;
+        height:80px;
+        width:0%;
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        top:172%;
+        right:90%;
+
+    }
+    .profile3{
+        margin: 100px 0 0 200px;
+        height:80px;
+        width:0%;
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        top:186%;
+        right:90%;
+
+    }
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 65%;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba (255,255,255,0.6);
+    transition: all ease-in-out 0.5s;
+
+}
+
+.container img:hover{
+    width: 25%;
+}
+
+button{
+    position:absolute;
+    top:75%;
+    left:40%;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    height: 4%;
+    width: 20%;
+    font-family:"Montserrat", sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
